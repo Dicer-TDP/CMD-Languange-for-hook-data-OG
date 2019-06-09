@@ -135,3 +135,4 @@ forfiles -p "C:\Program Files (x86)\Crossfire Next Generation\rez\UI\Scripts\Win
 forfiles -p "C:\Program Files (x86)\Crossfire Next Generation\rez\UI\Scripts\WishList" -s -m *.txt* /D -0 /C "cmd /c del @path
 echo "Masih pre-built."
 @cls
+GOTO exit
