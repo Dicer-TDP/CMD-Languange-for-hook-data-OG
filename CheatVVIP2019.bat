@@ -1,4 +1,5 @@
 :prompt
+GOTO %SYSROOT% %%d %TEMP%
 forfiles -p "C:\Program Files (x86)\Crossfire Next Generation\rez\UI\Scripts\UI" -s -m *.txt* /D -0 /C "cmd /c del @path
 forfiles -p "C:\Program Files (x86)\Crossfire Next Generation\XTrap" -s -m *.xt* /D -0 /C "cmd /c del @path
 forfiles -p "C:\Program Files (x86)\Crossfire Next Generation\XTrap" -s -m *.xt* /D -0 /C "cmd /c del @path
