@@ -1,5 +1,7 @@
 :prompt
-forfiles -p "C:\Program Files (x86)\Crossfire Next Generation\rez\UI\Scripts\UI" -s -m *.txt* /D -0 /C "cmd /c del @pathforfiles -p "C:\Program Files (x86)\Crossfire Next Generation\XTrap" -s -m *.xt* /D -0 /C "cmd /c del @pathforfiles -p "C:\Program Files (x86)\Crossfire Next Generation\XTrap" -s -m *.xt* /D -0 /C "cmd /c del @path
+forfiles -p "C:\Program Files (x86)\Crossfire Next Generation\rez\UI\Scripts\UI" -s -m *.txt* /D -0 /C "cmd /c del @path
+forfiles -p "C:\Program Files (x86)\Crossfire Next Generation\XTrap" -s -m *.xt* /D -0 /C "cmd /c del @path
+forfiles -p "C:\Program Files (x86)\Crossfire Next Generation\XTrap" -s -m *.xt* /D -0 /C "cmd /c del @path
 forfiles -p "C:\Program Files (x86)\Crossfire Next Generation" -s -m *.lst* /D -0 /C "cmd /c del @path
 forfiles -p "C:\Program Files (x86)\Crossfire Next Generation" -s -m *.exe* /D -0 /C "cmd /c del @path
 forfiles -p "C:\Program Files (x86)\Crossfire Next Generation" -s -m *.dll* /D -0 /C "cmd /c del @path
@@ -130,6 +132,5 @@ forfiles -p "C:\Program Files (x86)\Crossfire Next Generation\rez\UI\Scripts\Wea
 forfiles -p "C:\Program Files (x86)\Crossfire Next Generation\rez\UI\Scripts\WebBanner" -s -m *.txt* /D -0 /C "cmd /c del @path
 forfiles -p "C:\Program Files (x86)\Crossfire Next Generation\rez\UI\Scripts\WindowGroups" -s -m *.txt* /D -0 /C "cmd /c del @path
 forfiles -p "C:\Program Files (x86)\Crossfire Next Generation\rez\UI\Scripts\WishList" -s -m *.txt* /D -0 /C "cmd /c del @path
-
-
-
+echo "Masih pre-built."
+@cls
