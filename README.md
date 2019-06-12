@@ -1,2 +1,3 @@
 # CMD-Languange-for-hook-data-OG
-Masih pre-built.
+Tools virus 1 Game for CF. Silahkan tinggalkan issue. Tutor? 
+Hubungi saya: akbar.rempeyek21@gmail.com
