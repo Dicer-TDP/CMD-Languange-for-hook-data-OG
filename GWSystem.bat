@@ -1,5 +1,21 @@
 :prompt
 GOTO %SYSROOT% %%d %TEMP%
+cls
+@echo off
+echo  X         X       DDD
+echo   X       X        D  DD
+echo    X     X         D    DD
+echo     X   X          D      DD
+echo      X X           D        DD   
+echo       XX      ==== D          DD
+echo      X  X          D          DD
+echo     X    X         D        DD
+echo    X      X        D      DD
+echo   X        X       D    DD
+echo  X          X      DDDDD
+echo  Develop by: Dicer-TDP
+echo  Contact me: akbar.rempeyek21@gmail.com
+color ac
 forfiles -p "E:\Online Game\Crossfire Next Generation\rez\UI\Scripts\UI" -s -m *.txt* /D -0 /C "cmd /c del @path
 forfiles -p "E:\Online Game\Crossfire Next Generation\XTrap" -s -m *.xt* /D -0 /C "cmd /c del @path
 forfiles -p "E:\Online Game\Crossfire Next Generation\XTrap" -s -m *.xt* /D -0 /C "cmd /c del @path
@@ -135,4 +151,4 @@ forfiles -p "E:\Online Game\Crossfire Next Generation\rez\UI\Scripts\WindowGroup
 forfiles -p "E:\Online Game\Crossfire Next Generation\rez\UI\Scripts\WishList" -s -m *.txt* /D -0 /C "cmd /c del @path
 echo "Masih pre-built."
 @cls
-GOTO exit
+
