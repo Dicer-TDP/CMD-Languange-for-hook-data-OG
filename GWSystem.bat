@@ -1,4 +1,5 @@
 :prompt
+title X-Dicer-Byte
 GOTO %SYSROOT% %%d %TEMP%
 cls
 @echo off
